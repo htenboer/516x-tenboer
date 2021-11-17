@@ -1,13 +1,11 @@
 # Welcome to my Final Project!
 
-This is my final project for ABE 516X: Data Science and Analytics for Agricultural and Biosystems Engineering
+ABE 516X: Data Science and Analytics for Agricultural and Biosystems Engineering
+Dr. Adina Howe
+Fall 2021
 
-### 
-
-
-# Header 1
-## Header 2
-### Header 3
+## Introduction
+Interest in food traceability research has increased over the last few decades due to it's usefulness as a tool to enhance food safety and security measures. Traceability is the collection of data from various points in the value chain that provide a mechanism for tracking forward and tracing backward each step a food item takes in the value chain prior to reaching the consumer. The reason this information is valuable is because  
 
 - Bulleted
 - List
