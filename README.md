@@ -1,7 +1,10 @@
 # Welcome to my Final Project!
+## Heather H. Tenboer M.S.
 
 ABE 516X: Data Science and Analytics for Agricultural and Biosystems Engineering
+
 Dr. Adina Howe
+
 Fall 2021
 
 ## Introduction
@@ -15,9 +18,10 @@ In my research I am investigating the amount of mixing that occurs as grain from
   2. The grain is leaving the bin in last-in-first-out (LIFO) flow behavior; and
   3. Each load that leaves the bin is an equal mixture of all the source-lots in the bin. 
 
-These assumptions are not accurate because grain forms a natural hopper as gravity feed is commenced and  quantification of lot mixing due to granular flow characteristics could allow for the development of technology that can make predictions of grain load composition and generate a more accurate label. 
+These assumptions are not accurate because grain forms a natural hopper as gravity feed is commenced and as upper layers flow through lower layers a great deal of unquantified mixing occurs. Quantification of lot mixing due to granular flow characteristics could allow for the development of technology that can make predictions of grain load composition and generate a more accurate label. In the case of a recall situation increased label accuracy with respect to bulk products would provide an avenue for the efficient removal of contaminated products. Increased efficiency would save time and money, and allow for more uncontaminated food to remain in the market.  
 
-### Clear data analysis question 
+### Research Question
+In my quest to understand more about the impacts of my research into improving traceability in granular materials I have sought out data that can describe the impacts of food contamination. I downloaded a file consisting of recall items from the FDA with the intention of uncovering information about the causes and duration of recalls involving corn. Specifically, I am interested in calculating the risks involved by guaging the severity, based on the reason for the recall and duration, for each of the recall situations so that I can make projections about how an improved label could decrease the risk exposure. 
 
 ### Clear identification of data inputs
 
