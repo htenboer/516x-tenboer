@@ -14,6 +14,7 @@ In my research I am investigating the amount of mixing that occurs as grain from
   1. The grain is leaving the bin in first-in-first-out (FIFO) flow behavior;
   2. The grain is leaving the bin in last-in-first-out (LIFO) flow behavior; and
   3. Each load that leaves the bin is an equal mixture of all the source-lots in the bin. 
+
 These assumptions are not accurate because grain forms a natural hopper as gravity feed is commenced and  quantification of lot mixing due to granular flow characteristics could allow for the development of technology that can make predictions of grain load composition and generate a more accurate label. 
 
 ### Clear data analysis question 
