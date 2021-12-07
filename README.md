@@ -43,11 +43,11 @@ The first graph I made was of the corn recall percentages attributed to the prev
 
 The number of states affected by a recall was then determined. The number of occurrences of recalls that affected a specific number of states is shown in the histogram below. We can see that the greatest portion of the recalls effected less than ten states (400 recalls), but the next largest portion of the recalls affected all 50 states (200 recalls). 
 
-![Distribution Pattern](/516x-tenboer/assets/images/Distribution Pattern Hist.png)
+![Distribution](/516x-tenboer/assets/images/Distribution Pattern Hist.png)
 
 Next, I identified the number of recalls initiated by each state. As you can see in the following histogram, California initiated to largest number of recalls of any state with approximately 140 recalls inititated. The next largest recall state was Washington with approximately 105 recalls, then Pennsylvania with approximately 70 recalls, Texas with approximately 60 recalls, and Ohio with about 50 recalls. 
 
-![Recalling State](/516x-tenboer/assets/images/Recall State Hist.png)
+![Recall State](/516x-tenboer/assets/images/Recall State Hist.png)
 
 The final portion of my analysis consisted of a look at the number of recalls per year reported and per month. The following histogram shows that by a large amount the highest recall years were 2015 and 2016. This makes me wonder if there was some weather phenomenon or other unexpected condition that created the perfect environment for the growth of these biological contaminants. If I had more time I would have liked to incorporate a weather dataset and look for correlations. 
 
