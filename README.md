@@ -18,33 +18,29 @@ In my research I am investigating the amount of mixing that occurs as grain from
   2. The grain is leaving the bin in last-in-first-out (LIFO) flow behavior; and
   3. Each load that leaves the bin is an equal mixture of all the source-lots in the bin. 
 
-These assumptions are not accurate because grain forms a natural hopper as gravity feed is commenced and as upper layers flow through lower layers a great deal of unquantified mixing occurs. Quantification of lot mixing due to granular flow characteristics could allow for the development of technology that can make predictions of grain load composition and generate a more accurate label. In the case of a recall situation increased label accuracy with respect to bulk products would provide an avenue for the efficient removal of contaminated products. Increased efficiency would save time and money, and allow for more uncontaminated food to remain in the market.  
+As shown in the image below, these assumptions are not accurate because grain forms a natural hopper as gravity feed is commenced and as upper layers flow through lower layers a great deal of unquantified mixing occurs. Quantification of lot mixing due to granular flow characteristics could allow for the development of technology that can make predictions of grain load composition and generate a more accurate label. In the case of a recall situation increased label accuracy with respect to bulk products would provide an avenue for the efficient removal of contaminated products. Increased efficiency would save time and money, and allow for more uncontaminated food to remain in the market.  
 
 ![Core Flow](/516x-tenboer/assets/images/Core Flow.png)
 
 ### Research Question
-In my quest to understand more about the impacts of my research into improving traceability in granular materials I have sought out data that can describe the impacts of food contamination. I downloaded a file consisting of recall items from the FDA with the intention of uncovering information about the causes and duration of recalls involving corn. Specifically, I am interested in calculating the risks involved by guaging the severity, based on the reason for the recall and duration, for each of the recall situations so that I can make projections about how an improved label could decrease the risk exposure. 
+In my quest to understand more about the impacts of my research into improving traceability in granular materials I have sought out data that can describe the impacts of food contamination. Specifically, I am interested in eventually being able to calculate the risks involved by guaging the severity, based on the reason for the recall and the duration of the recall. For each of the recall situations I can make projections about how an improved label could decrease the risk exposure. I downloaded a file consisting of recall items from the FDA with the intention of uncovering information about the causes and duration of recalls involving corn. After spending some time looking through the dataset I was able to determine some questions that we would be able to answer using this data. 
 
-### Clear identification of data inputs
+1. How great is the impact of these recalls? As in, how many states are affected in each recall?
+2. What states are more likely to initiate a recall?
+3. Which states are most commonly affected?
+4. Which years had the greatest number of recalls?
+5. Were there certain months that tended to have higher recall counts than others?
 
-### Clear identification of analysis methods, including a well documented workflow figure.  
+The dataset used in this exercise was downloaded from the FDA website. It is a collection of recall data from the last several years and it includes information about the product types, product distribution patterns, recall date and state that initiated the recall, and more. I developed a project flowchart to guide this exercise as indicated in the image below. 
 
-### Additionally, I would like to see a written discussion of the following:
+![Core Flow](/516x-tenboer/assets/images/Project Workflow.png)
+
+### Discussion:
 Incorporation of at least three topics relevant to this class  - what from the class did you use in this project and why might it be useful for research projects like this?  What are the advantages and disadvantages?  Were there any assumptions or transformations needed?  Some topics discussed:  data wrangling; exploratory data analysis / summarizing data; identification of patterns and relationships; making predictions and decisions; text scraping; automation; scaling; randomization and bootstrapping; statistical analysis; ability to read and incorporate packages; supervised and unsupervised learning; cloud computing; using standard inputs; version control; how to manipulate multiple files with standard workflows; reproducible workflows, etc.
 
-### How much does your analysis attain the FAIR principles? 
+### FAIR principles: 
 For example, what is the ability to automate and reproduce your analysis (if the file input were to change, could this analysis be reproduced and how easily?)  - how will someone else reproduce this analysis?  Is the data stored somewhere?  Can I reproduce the figures easily?
 
-### Creation of one assignment based on your dataset for the class to complete - one can think of this of a task or homework assignment based on your project.
-
-
-### Other things I will look for:
-
-- Inclusion of statistical tools
-
-- Publication of workflow in a version controlled manner (your code should be on github)
-
- 
 ### Scoring
 Project (100 points)
 
@@ -58,17 +54,6 @@ Project describes integration of class concepts and discusses why analysis was c
 
 Task for Class - Useful and appropriate (15 points)
 
- 
-
-Presentation (25 points) 
-
-Problem introduced and question is clear (5 pionts) 
-
-Analysis is explained and relevancy to the class is clear (5 points)
-
-Outputs are appropriate and answer the question (5 points)
-
-Professional appearance and organization, engaging  (10 points)
 
 
 ### Markdown Help
