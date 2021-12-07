@@ -8,8 +8,7 @@ Dr. Adina Howe
 Fall 2021
 
 ## Introduction
-###  Introduction to a research question (what is the background on this subject; why does the question matter; who will it help; how has it been attempted to be answered)
-  Interest in food traceability research has increased over the last few decades due to it's usefulness as a tool to enhance food safety and security measures. Traceability is the collection of data from various points in the value chain that provide a mechanism for tracking forward and tracing backward each step a food item takes in the value chain prior to reaching the consumer. The application of traceability methods can make targeting specific items that need to be removed from the market more efficient and accurate. 
+Interest in food traceability research has increased over the last few decades due to it's usefulness as a tool to enhance food safety and security measures. Traceability is the collection of data from various points in the value chain that provide a mechanism for tracking forward and tracing backward each step a food item takes in the value chain prior to reaching the consumer. The application of traceability methods can make targeting specific items that need to be removed from the market more efficient and accurate. 
 
 The movement and mixture of bulk products such as liquids, like milk or vegetable oil, and granular materials, like corn, soy beans, wheat, and rice, are complex and not well understood. Bulk items have been shown to confound current traceability methods, such as physical separation of different lots, defining and associating batches, radio frequency identification tagging (RFID), QR coding, and barcodes. Physical separation is not practical when it comes to the millions of bushels of grain harvested, stored, and transported throughout the midwest annually. These grain harvests must be stored in bulk storage facilities, called cooperatives or elevators, that purchase grain from producers and store it in their facility in anticipation of selling the grain to the markets that they serve. There is no way to keep grain harvested from Farm X separate from grain harvested from Farm Y; they are layered into the bins based on the management decisions made at the storage facility with respect to the quality and condition of the grain. 
   
@@ -33,47 +32,29 @@ In my quest to understand more about the impacts of my research into improving t
 
 The dataset used in this exercise was downloaded from the FDA website. It is a collection of recall data from the last several years and it includes information about the product types, product distribution patterns, recall date and state that initiated the recall, and more. I developed a project flowchart to guide this exercise as indicated in the image below. 
 
-![Core Flow](/516x-tenboer/assets/images/Project Workflow.png)
+![Workflow](/516x-tenboer/assets/images/Project Workflow.png)
 
-### Discussion:
+### Analysis Methods
+After downloading the data I did some sorting to determine what portions of the data were going to be able to answer our questions. I then extracted the data about food and cosmetic recalls, then further extracted those food items containing corn or corn byproducts. I parsed out the recall dates so that we could identify the months and years with the most recalls, and then parsed out the distribution pattern so that the number of states affected could be counted. I also determined how I wanted to codify the reasons for recall into the categories of allergen, biological contaminant, foreign object contamination, packaging issue, or quality concern. Finally, I conducted the required analysis to answer the questions. 
+
+The first graph I made was of the corn recall percentages attributed to the previously described categories. The pie chart below shows that 54% of the corn recalls were attributed to biological contamination. This is a major concern since some of the biological contaminants that are common in grain are toxic even in small doses, and some are carcinogens. 
+
+![Recall Type](/516x-tenboer/assets/images/Recall Type Pie.png)
+
+The number of states affected by a recall was then determined. The number of occurrences of recalls that affected a specific number of states is shown in the histogram below. We can see that the greatest portion of the recalls effected less than ten states (400 recalls), but the next largest portion of the recalls affected all 50 states (200 recalls). 
+
+![Distribution Pattern](/516x-tenboer/assets/images/Distribution Pattern Hist.png)
+
+Next, I identified the number of recalls initiated by each state. As you can see in the following histogram, California initiated to largest number of recalls of any state with approximately 140 recalls inititated. The next largest recall state was Washington with approximately 105 recalls, then Pennsylvania with approximately 70 recalls, Texas with approximately 60 recalls, and Ohio with about 50 recalls. 
+
+![Number of States Affected](/516x-tenboer/assets/images/Recall State Hist.png)
+
+
+
+![Recalls per State](/516x-tenboer/assets/images/Core Flow.png)
+
+### Discussion
 Incorporation of at least three topics relevant to this class  - what from the class did you use in this project and why might it be useful for research projects like this?  What are the advantages and disadvantages?  Were there any assumptions or transformations needed?  Some topics discussed:  data wrangling; exploratory data analysis / summarizing data; identification of patterns and relationships; making predictions and decisions; text scraping; automation; scaling; randomization and bootstrapping; statistical analysis; ability to read and incorporate packages; supervised and unsupervised learning; cloud computing; using standard inputs; version control; how to manipulate multiple files with standard workflows; reproducible workflows, etc.
 
-### FAIR principles: 
+### FAIR principles
 For example, what is the ability to automate and reproduce your analysis (if the file input were to change, could this analysis be reproduced and how easily?)  - how will someone else reproduce this analysis?  Is the data stored somewhere?  Can I reproduce the figures easily?
-
-### Scoring
-Project (100 points)
-
-Website / Content (75 points)
-
-Problem introduced, relevancy explained, question is clear (20 points)
-
-Reproducible analysis is present and clear (20 points)
-
-Project describes integration of class concepts and discusses why analysis was chosen  (20 points)
-
-Task for Class - Useful and appropriate (15 points)
-
-
-
-### Markdown Help
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/htenboer/516x-tenboer/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
