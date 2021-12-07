@@ -34,6 +34,10 @@ The dataset used in this exercise was downloaded from the FDA website. It is a c
 
 ![Workflow](/516x-tenboer/assets/images/Project Workflow.png)
 
+![Recall Year](/516x-tenboer/assets/images/Recall Year Hist.png)
+
+![Recall Month](/516x-tenboer/assets/images/Recall Month Bar.png)
+
 ### Analysis Methods
 After downloading the data I did some sorting to determine what portions of the data were going to be able to answer our questions. I then extracted the data about food and cosmetic recalls, then further extracted those food items containing corn or corn byproducts. I parsed out the recall dates so that we could identify the months and years with the most recalls, and then parsed out the distribution pattern so that the number of states affected could be counted. I also determined how I wanted to codify the reasons for recall into the categories of allergen, biological contaminant, foreign object contamination, packaging issue, or quality concern. Finally, I conducted the required analysis to answer the questions. 
 
@@ -48,8 +52,6 @@ The number of states affected by a recall was then determined. The number of occ
 Next, I identified the number of recalls initiated by each state. As you can see in the following histogram, California initiated to largest number of recalls of any state with approximately 140 recalls inititated. The next largest recall state was Washington with approximately 105 recalls, then Pennsylvania with approximately 70 recalls, Texas with approximately 60 recalls, and Ohio with about 50 recalls. 
 
 ![Number of States Affected](/516x-tenboer/assets/images/Recall State Hist.png)
-
-
 
 ![Recalls per State](/516x-tenboer/assets/images/Core Flow.png)
 
