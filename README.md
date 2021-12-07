@@ -1,14 +1,21 @@
 <p align="center">
 # Welcome to my Final Project!
+</p>
 
+<p align="center">
 ## Heather H. Tenboer M.S.
+</p>
 
+<p align="center">
 ABE 516X: Data Science and Analytics for Agricultural and Biosystems Engineering
-
+</p>
+ 
+<p align="center">
 Dr. Adina Howe
+</p>
 
+<p align="center">
 Fall 2021
-
 </p>
 
 ## Introduction
