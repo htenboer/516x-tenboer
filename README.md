@@ -34,10 +34,6 @@ The dataset used in this exercise was downloaded from the FDA website. It is a c
 
 ![Workflow](/516x-tenboer/assets/images/Project Workflow.png)
 
-![Recall Year](/516x-tenboer/assets/images/Recall Year Hist.png)
-
-![Recall Month](/516x-tenboer/assets/images/Recall Month Bar.png)
-
 ### Analysis Methods
 After downloading the data I did some sorting to determine what portions of the data were going to be able to answer our questions. I then extracted the data about food and cosmetic recalls, then further extracted those food items containing corn or corn byproducts. I parsed out the recall dates so that we could identify the months and years with the most recalls, and then parsed out the distribution pattern so that the number of states affected could be counted. I also determined how I wanted to codify the reasons for recall into the categories of allergen, biological contaminant, foreign object contamination, packaging issue, or quality concern. Finally, I conducted the required analysis to answer the questions. 
 
@@ -51,12 +47,18 @@ The number of states affected by a recall was then determined. The number of occ
 
 Next, I identified the number of recalls initiated by each state. As you can see in the following histogram, California initiated to largest number of recalls of any state with approximately 140 recalls inititated. The next largest recall state was Washington with approximately 105 recalls, then Pennsylvania with approximately 70 recalls, Texas with approximately 60 recalls, and Ohio with about 50 recalls. 
 
-![Number of States Affected](/516x-tenboer/assets/images/Recall State Hist.png)
+![Recalling State](/516x-tenboer/assets/images/Recall State Hist.png)
 
-![Recalls per State](/516x-tenboer/assets/images/Core Flow.png)
+The final portion of my analysis consisted of a look at the number of recalls per year reported and per month. The following histogram shows that by a large amount the highest recall years were 2015 and 2016. This makes me wonder if there was some weather phenomenon or other unexpected condition that created the perfect environment for the growth of these biological contaminants. If I had more time I would have liked to incorporate a weather dataset and look for correlations. 
+
+![Recall Year](/516x-tenboer/assets/images/Recall Year Hist.png)
+
+According to the bar graph reporting the number of recalls per month for the time frames investigated we can see that the three highest recall months are February with about 120 recalls, September with around 90 recalls, and November with about 85 recalls. Again, this information makes me wonder about the possibility of annual conditional trends including grain having time to go out of condition before sale and processing as may be the case with the batches recalled in February. If I had more time I would try to find a dataset about grain storage time and drying management practices to compare our data with and look for correlations. 
+
+![Recall Month](/516x-tenboer/assets/images/Recall Month Bar.png)
 
 ### Discussion
-Incorporation of at least three topics relevant to this class  - what from the class did you use in this project and why might it be useful for research projects like this?  What are the advantages and disadvantages?  Were there any assumptions or transformations needed?  Some topics discussed:  data wrangling; exploratory data analysis / summarizing data; identification of patterns and relationships; making predictions and decisions; text scraping; automation; scaling; randomization and bootstrapping; statistical analysis; ability to read and incorporate packages; supervised and unsupervised learning; cloud computing; using standard inputs; version control; how to manipulate multiple files with standard workflows; reproducible workflows, etc.
+During this project I used a great deal of the data wrangling tactics that we learned in this class. I wanted to incorporate some statistical analysis or machine learning techniques but was not able to find a method for doing that with this particular dataset. Statistics were difficult to incorporate because none of the information in the dataset consisted of the measurement of any value. Without the ability to use statistical analysis or machine learning I developed some questions that I could answer by rearranging the data and visualizing the outcomes. 
 
 ### FAIR principles
-For example, what is the ability to automate and reproduce your analysis (if the file input were to change, could this analysis be reproduced and how easily?)  - how will someone else reproduce this analysis?  Is the data stored somewhere?  Can I reproduce the figures easily?
+This project should be in alignment with the FAIR principles because all of the materials are available and reproducible. 
