@@ -46,27 +46,27 @@ After downloading the data I did some sorting to determine what portions of the 
 
 In the pie chart below you can see which types of recalls were reported for the years covered in the dataset. 
 
-![Recall Type](/516x-tenboer/assets/images/Recall Type Pie Chart.png)
+![Product Type](/516x-tenboer/assets/images/Product Type Pie Chart.PNG)
 
-I made was of the corn recall percentages attributed to the previously described categories. The pie chart below shows that 54% of the corn recalls were attributed to biological contamination. This is a major concern since some of the biological contaminants that are common in grain are toxic even in small doses, and some are carcinogens. 
+The next visualization I wanted to evaluate was of the corn recall percentages attributed to the previously described categories. The pie chart below shows that 54% of the corn recalls were attributed to biological contamination. This is a major concern since some of the biological contaminants that are common in grain are toxic even in small doses, and some are carcinogens. 
 
-
+![Corn Recall Type](/516x-tenboer/assets/images/Recall Type Pie.PNG)
 
 The number of states affected by a recall was then determined. The number of occurrences of recalls that affected a specific number of states is shown in the histogram below. We can see that the greatest portion of the recalls effected less than ten states (400 recalls), but the next largest portion of the recalls affected all 50 states (200 recalls). 
 
-![Distribution](/516x-tenboer/assets/images/Distribution Pattern Hist.png)
+![Distribution](/516x-tenboer/assets/images/Distribution Pattern Hist.PNG)
 
 Next, I identified the number of recalls initiated by each state. As you can see in the following histogram, California initiated to largest number of recalls of any state with approximately 140 recalls inititated. The next largest recall state was Washington with approximately 105 recalls, then Pennsylvania with approximately 70 recalls, Texas with approximately 60 recalls, and Ohio with about 50 recalls. 
 
-![Recall State](/516x-tenboer/assets/images/Recall State Hist.png)
+![Recall State](/516x-tenboer/assets/images/Recall State Hist.PNG)
 
 The final portion of my analysis consisted of a look at the number of recalls per year reported and per month. The following histogram shows that by a large amount the highest recall years were 2015 and 2016. This makes me wonder if there was some weather phenomenon or other unexpected condition that created the perfect environment for the growth of these biological contaminants. If I had more time I would have liked to incorporate a weather dataset and look for correlations. 
 
-![Recall Year](/516x-tenboer/assets/images/Recall Year Hist.png)
+![Recall Year](/516x-tenboer/assets/images/Recall Year Hist.PNG)
 
 According to the bar graph reporting the number of recalls per month for the time frames investigated we can see that the three highest recall months are February with about 120 recalls, September with around 90 recalls, and November with about 85 recalls. Again, this information makes me wonder about the possibility of annual conditional trends including grain having time to go out of condition before sale and processing as may be the case with the batches recalled in February. If I had more time I would try to find a dataset about grain storage time and drying management practices to compare our data with and look for correlations. 
 
-![Recall Month](/516x-tenboer/assets/images/Recall Month Bar.png)
+![Recall Month](/516x-tenboer/assets/images/Recall Month Bar.PNG)
 
 ### Discussion
 During this project I used a great deal of the data wrangling tactics that we learned in this class. I wanted to incorporate some statistical analysis or machine learning techniques but was not able to find a method for doing that with this particular dataset. Statistics were difficult to incorporate because none of the information in the dataset consisted of the measurement of any value. Without the ability to use statistical analysis or machine learning I developed some questions that I could answer by rearranging the data and visualizing the outcomes. 
