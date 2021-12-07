@@ -20,6 +20,8 @@ In my research I am investigating the amount of mixing that occurs as grain from
 
 These assumptions are not accurate because grain forms a natural hopper as gravity feed is commenced and as upper layers flow through lower layers a great deal of unquantified mixing occurs. Quantification of lot mixing due to granular flow characteristics could allow for the development of technology that can make predictions of grain load composition and generate a more accurate label. In the case of a recall situation increased label accuracy with respect to bulk products would provide an avenue for the efficient removal of contaminated products. Increased efficiency would save time and money, and allow for more uncontaminated food to remain in the market.  
 
+![Core Flow](/516x-tenboer/assets/images/Core Flow.png)
+
 ### Research Question
 In my quest to understand more about the impacts of my research into improving traceability in granular materials I have sought out data that can describe the impacts of food contamination. I downloaded a file consisting of recall items from the FDA with the intention of uncovering information about the causes and duration of recalls involving corn. Specifically, I am interested in calculating the risks involved by guaging the severity, based on the reason for the recall and duration, for each of the recall situations so that I can make projections about how an improved label could decrease the risk exposure. 
 
