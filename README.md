@@ -7,7 +7,7 @@ Heather H. Tenboer M.S.
 </p>
 
 <p align="center">
-ABE 516X: Data Science and Analytics for Agricultural and Biosystems Engineering
+*ABE 516X: Data Science and Analytics for Agricultural and Biosystems Engineering*
 </p>
  
 <p align="center">
