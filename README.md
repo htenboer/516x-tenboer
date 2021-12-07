@@ -8,9 +8,9 @@ Dr. Adina Howe
 
 Fall 2021
 
-<p align="center">
+
 ![Data Wrangling](/516x-tenboer/assets/images/Data Wrangling.png)
-</p>
+
  
 ## Introduction
 Interest in food traceability research has increased over the last few decades due to it's usefulness as a tool to enhance food safety and security measures. Traceability is the collection of data from various points in the value chain that provide a mechanism for tracking forward and tracing backward each step a food item takes in the value chain prior to reaching the consumer. The application of traceability methods can make targeting specific items that need to be removed from the market more efficient and accurate. 
