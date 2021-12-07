@@ -1,9 +1,9 @@
 <p align="center">
-# Welcome to my Final Project!
+**Welcome to my Final Project!**
 </p>
 
 <p align="center">
-## Heather H. Tenboer M.S.
+Heather H. Tenboer M.S.
 </p>
 
 <p align="center">
