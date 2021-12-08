@@ -75,5 +75,7 @@ During this project I used a great deal of the data wrangling tactics that we le
 This project should be in alignment with the FAIR principles because all of the materials are available and reproducible. 
 
 ### Class Assignment
-The accompanying class assignment for this project can be found at the following link. 
+The accompanying class assignment for this project can be found at the following link: 
 http://localhost:8890/notebooks/Final%20Project/FP%20Assignment.ipynb
+And the dataset for the assignment can be downloaded here:
+https://iastate.box.com/s/yyjarkrszorrvl058awus2mculr2boh0
