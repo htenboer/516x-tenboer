@@ -73,3 +73,7 @@ During this project I used a great deal of the data wrangling tactics that we le
 
 ### FAIR principles
 This project should be in alignment with the FAIR principles because all of the materials are available and reproducible. 
+
+### Class Assignment
+The accompanying class assignment for this project can be found at the following link. 
+http://localhost:8890/notebooks/Final%20Project/FP%20Assignment.ipynb
